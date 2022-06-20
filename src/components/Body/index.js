@@ -9,7 +9,7 @@ const Body = () => (
 
       return (
         <div className="body">
-          {showContent ? (
+          {showLeftNavbar ? (
             <div className="left-menu">
               <h3>Left Navbar Menu</h3>
               <ul>
@@ -22,7 +22,7 @@ const Body = () => (
           ) : (
             ''
           )}
-          {showLeftNavbar ? (
+          {showContent ? (
             <div className="left-menu">
               <h3>Content</h3>
               <p>

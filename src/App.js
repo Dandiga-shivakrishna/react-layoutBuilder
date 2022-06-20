@@ -32,11 +32,11 @@ class App extends Component {
     return (
       <ConfigurationContext.Provider
         value={{
-          showContent,
           showLeftNavbar,
+          showContent,
           showRightNavbar,
-          onToggleShowContent: this.onToggleShowContent,
           onToggleShowLeftNavbar: this.onToggleShowLeftNavbar,
+          onToggleShowContent: this.onToggleShowContent,
           onToggleShowRightNavbar: this.onToggleShowRightNavbar,
         }}
       >

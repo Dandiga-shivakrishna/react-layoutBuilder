@@ -33,6 +33,7 @@ const ConfigurationController = () => (
             />
             Left Navbar
           </label>
+
           <label>
             <input
               type="checkbox"
