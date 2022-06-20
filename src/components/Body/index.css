@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.body {
+  display: flex;
+  flex-direction: row;
+  margin: 20;
+}
+.left-menu {
+  background-color: #f1f5f9;
+  padding: 10px;
+  margin: 5px;
+}
